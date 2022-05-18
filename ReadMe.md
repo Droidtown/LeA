@@ -25,7 +25,7 @@ LeA, 或是 LEgal Assistant 是透過卓騰語言科技的文件搜尋系統的 
 2. 在 `copytoaster_key` 的地方請輸入 `xG69*bu66!FRj+tCqTw-J8^29aH+Ax`
 3. 在 `input_str ` 中輸入想查找的詞彙或語句，例如
 	- 輸入查詢詞彙：*商標侵權*
-	- 輸入查詢語句：*請給我關於商標侵權的文章*
+	- 輸入查詢語句：*請給我關於商標侵權的判決*
 
 ### API 範例程式：
     
@@ -35,19 +35,19 @@ from requests import post
 result = post("https://lea.droidtown.co/api", json={
     "username": "LegalTech2022",
     "copytoaster_key": "xG69*bu66!FRj+tCqTw-J8^29aH+Ax",
-    "input_str": "請給我關於商標侵權的文章"
+    "input_str": "請給我關於商標侵權的判決"
 })
 if result.status_code == 200:
     # Output
     """{
         "status": True,
         "msg": "Success!",
-        "results": [{'title': 'jd3-102刑智上易字69號', 
-					 'document': '當事人: 許子山\n你的紙條及\n口述，由他寫出來的？）我看過文章...', 
-					 'url': 'https://lea.droidtown.co/e73a605a-5b66-4804-98c1-2f4c6e748782'},
-					{'title': 'jd2-107民著上易字8號', 
-					 'document': '當事人: 鄒積鎮, 陳意欣, 黃仲立即名瑿醫美診所, 陳柏銓律師\n不防止，能注意...', 
-					 'url': 'https://lea.droidtown.co/c31e00fe-f2eb-4f01-b7ed-b352817222a7'}
+        "results": [{'title': 'op3-103民商訴字60號', 
+					 'document': '當事人: 沈瑛偉, 張清浩律師, 香港商電視廣播有限公司, 李寶安, 謝樹藝律師\n統一域名紛爭解決政策）於103年12月11日作成專家決定書...', 
+					 'url': 'https://lea.droidtown.co/b366a72a-e27b-42be-a1b8-22395d5b4666'},
+					{'title': 'op1-103民商上易字3號', 
+					 'document': '當事人: 李姍昀, 莫詒文律師, 簡銘昱律師, 林欣儀, 謝燈妹, 郭雨嵐律師, 呂紹凡律師\n四、得心證之理由：\n（一）被上訴人是否有故意、過失侵害系爭商標...', 
+					 'url': 'https://lea.droidtown.co/af1f8a29-fac4-4e1e-9631-69742e771aca'}
 					 ...]
     }"""
     print(result.json())
