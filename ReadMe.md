@@ -43,11 +43,11 @@ if result.status_code == 200:
         "status": True,
         "msg": "Success!",
         "results": [{'title': 'op3-103民商訴字60號', 
-					 'document': '當事人: 沈瑛偉, 張清浩律師, 香港商電視廣播有限公司, 李寶安, 謝樹藝律師\n統一域名紛爭解決政策）於103年12月11日作成專家決定書...', 
-					 'url': 'https://lea.droidtown.co/b366a72a-e27b-42be-a1b8-22395d5b4666'},
+					'document': '當事人: 沈瑛偉, 張清浩律師, 香港商電視廣播有限公司, 李寶安, 謝樹藝律師\n統一域名紛爭解決政策）於103年12月11日作成專家決定書...', 
+					'url': 'https://lea.droidtown.co/b366a72a-e27b-42be-a1b8-22395d5b4666'},
 					{'title': 'op1-103民商上易字3號', 
-					 'document': '當事人: 李姍昀, 莫詒文律師, 簡銘昱律師, 林欣儀, 謝燈妹, 郭雨嵐律師, 呂紹凡律師\n四、得心證之理由：\n（一）被上訴人是否有故意、過失侵害系爭商標...', 
-					 'url': 'https://lea.droidtown.co/af1f8a29-fac4-4e1e-9631-69742e771aca'}
+					'document': '當事人: 李姍昀, 莫詒文律師, 簡銘昱律師, 林欣儀, 謝燈妹, 郭雨嵐律師, 呂紹凡律師\n四、得心證之理由：\n（一）被上訴人是否有故意、過失侵害系爭商標...', 
+					'url': 'https://lea.droidtown.co/af1f8a29-fac4-4e1e-9631-69742e771aca'}
 					 ...]
     }"""
     print(result.json())
