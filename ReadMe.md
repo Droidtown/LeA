@@ -57,13 +57,13 @@ if result.status_code == 200:
 
 ## <h1 id="Second">使用 Line</h1>
 
-1. 打開你手機上的 LINE.app 並掃描以下 QR code 啟用 LeA's Office
+1. 打開你手機上的 LINE 並掃描以下 QR code 加入 LeA 判決書搜尋助理
   
-    <img src="./media/QRcodeLea.png" alt="drawing" width="300"/>
+    <img src="./media/QRcodeLea.png" alt="drawing" width="250"/>
     
-2. 接下來，每次要問 LeA 問題的時候，就直接寫出你的問題，例如 `請給我商標侵權方面的文章`
+2. 接下來，每次要問 LeA 問題的時候，就直接寫出你的問題或想尋找的內容，例如 `商標侵權`
 
-    <img src="./media/p3.png" alt="drawing" width="350"/>
+    <img src="./media/LineDemo.png" alt="drawing" width="250"/>
 
 3. 搜尋結果中的 `jd` 表示為 "**裁判全文**"，其後的數字 `-3` 表示是全文中的第 3 部份。
 4.  搜尋結果中的 `op` 表示為"**法院見解**"，其後的數字 `-4` 表示是全文中的第 4 部份。
