@@ -26,6 +26,7 @@ LeA, 或是 LEgal Assistant 是透過卓騰語言科技的文件搜尋系統的 
 3. 在 `input_str ` 中輸入想查找的詞彙或語句，例如
 	- 輸入查詢詞彙：*商標侵權*
 	- 輸入查詢語句：*請給我關於商標侵權的判決*
+4. 在 `curt` 中指定資料集，預設為 `taipei`，目前可選擇的資料集有 `taipei`, `patron`
 
 ### API 範例程式：
     
@@ -35,7 +36,8 @@ from requests import post
 result = post("https://lea.droidtown.co/api", json={
     "username": "LegalTech2022",
     "copytoaster_key": "xG69*bu66!FRj+tCqTw-J8^29aH+Ax",
-    "input_str": "請給我關於商標侵權的判決"
+    "input_str": "請給我關於商標侵權的判決",
+    "curt": "taipei"
 })
 if result.status_code == 200:
     # Output
